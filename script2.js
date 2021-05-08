@@ -85,12 +85,9 @@ function procurar() {
             </tr>
         `
             }
-
         }
+        placa_procurar.value = ''
     }
-
-    placa_procurar.value = ''
-
 }
 
 function cadastrar() {
