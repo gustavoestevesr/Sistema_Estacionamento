@@ -154,11 +154,7 @@ anychart.onDocumentReady(function() {
 
         var qtd = veiculos.length
 
-    }else{
-        
-        var qtd = 0
-
-    }
+    
 
     // set the data
     var data = {
@@ -180,5 +176,5 @@ anychart.onDocumentReady(function() {
     // draw
     chart.container("container");
     chart.draw();
-    
+}
 });
