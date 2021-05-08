@@ -33,7 +33,6 @@ function carregar() {
         `
         }
 
-        draw_chart()
     }
 }
 
