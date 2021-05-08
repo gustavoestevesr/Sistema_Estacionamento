@@ -122,8 +122,6 @@ function cadastrar() {
 
         carregar()
 
-        draw_chart()
-
         console.log(veiculo);
 
     } else {
@@ -135,7 +133,7 @@ function cadastrar() {
 
 }
 
-function draw_chart(){
+anychart.onDocumentReady(function() {
 
     // set the data
     //var data2 = {
@@ -183,4 +181,4 @@ function draw_chart(){
     chart.container("container");
     chart.draw();
     
-}
+});
